@@ -1,4 +1,3 @@
-<p>recipe-detail works!</p>
 <div class="row">
   <div class="col-xs-12">
     <img
@@ -10,7 +9,7 @@
 </div>
 <div class="row">
   <div class="col-xs-12">
-    <!-- <h1>{{ recipe.name }}</h1> -->
+    <h1>{{ recipe.name }}</h1>
   </div>
 </div>
 <div class="row">
@@ -25,15 +24,15 @@
       </button>
       <ul class="dropdown-menu">
         <li><a (click)="addToShoppingList()">To Shopping List</a></li>
-        <li><a href="#">Edit Recipe</a></li>
-        <li><a href="#">Delete Recipe</a></li>
+        <li><a >Edit Recipe</a></li>
+        <li><a >Delete Recipe</a></li>
       </ul>
     </div>
   </div>
 </div>
 <div class="row">
   <div class="col-xs-12">
-    {{ recipe.description }}
+    <p class="strong"> {{ recipe.description }}</p>
   </div>
 </div>
 <div class="row">

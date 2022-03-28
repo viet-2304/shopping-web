@@ -8,17 +8,17 @@ export class RecipeService {
     recipeSelect = new EventEmitter<Recipe>();
     private recipes: Recipe[] = [
         new Recipe(
-            'A Test Recipe',
-            'This is simply a test', 
+            'A pull dog',
+            'His face is so funny', 
             'https://sieupet.com/sites/default/files/pictures/images/cho-pug-cuoi.jpg',
-            [new Ingredient('rice',10),
-             new Ingredient('cake', 5)
+            [new Ingredient('big dog',10),
+             new Ingredient('child dog', 5)
             ]),
         new Recipe(
-            'Another Test Recipe', 
-            'This is simply a test', 
+            'A poodle dog', 
+            'This is a cute dog', 
             'https://thuthuatnhanh.com/wp-content/uploads/2020/01/hinh-nen-chu-cho-poodle-de-thuong-cho-desktop-840x475.jpg',
-            [new Ingredient('apple',1)
+            [new Ingredient('big dog',1)
             ])
       ];
 
